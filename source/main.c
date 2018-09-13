@@ -17,7 +17,7 @@ int main(void) {
 	PORTB->PCR[18]= 0x100;//Ptb18 como gpio.....................
 	PORTB->PCR[19]= 0x100;
 
-	GPIOB->PDOR	  = 0xC0000;
+	GPIOB->PDOR	  = 0xC0000;//Primer Branch, Segundo Branch
 	//GPIOB->PDOR	  = 0x40000;
 	//GPIOB->PDOR	  = 0x80000;
 	GPIOD->PDOR	  = 0x1;
