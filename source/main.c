@@ -16,7 +16,7 @@ int main(void) {
 	CLOCK_EnableClock(kCLOCK_PortD);//Comentario2 prueba
 	PORTB->PCR[18]= 0x100;//Ptb18 como gpio
 	PORTB->PCR[19]= 0x100;
-	PORTD->PCR[1] = 0x100;
+	PORTD->PCR[1] = 0x100;//Modificando codigo
 	GPIOB->PDOR	  = 0xC0000;
 	//GPIOB->PDOR	  = 0x40000;
 	//GPIOB->PDOR	  = 0x80000;
