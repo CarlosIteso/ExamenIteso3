@@ -14,11 +14,7 @@ int main(void) {
 	//SIM->SCGC5   |= 0x1400;
 	CLOCK_EnableClock(kCLOCK_PortB);//Habilitar clock para el puerto b
 	CLOCK_EnableClock(kCLOCK_PortD);//Comentario2 prueba
-<<<<<<< HEAD
 	PORTB->PCR[18]= 0x100;//Ptb18 como gpio.....................
-=======
-	PORTB->PCR[18]= 0x100;//AQUI HABIA UN COMENTARIO PERO YA NO EJERCICIO 2
->>>>>>> jorge
 	PORTB->PCR[19]= 0x100;
 
 	GPIOB->PDOR	  = 0xC0000;
